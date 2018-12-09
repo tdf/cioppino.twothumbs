@@ -37,6 +37,7 @@ setup(
         'Plone',
         'plone.behavior',
         'setuptools',
+        'six',
     ],
     extras_require={'test': ['plone.app.testing']},
     entry_points="""
